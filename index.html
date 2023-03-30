@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <title>Personal Website IDLE</title>
+    <script
+      src="https://kit.fontawesome.com/24748c7783.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/pinterest.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Activities</a></li>
+            <li><a href="#portfolio">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+      
+          </ul>
+          
+
+        </nav>
+        <div class="header-text">
+          <h1>Hi, Im <span class="auto-type"></span></h1>
+        </div>
+        <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+        <script>
+          var typed = new Typed(".auto-type",{
+            strings:["Alfred De Leon", "Lazy", "Delicious"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+          })
+        </script>
+      </div>
+    </div>
+    <!-----------------about---------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/ME.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am an apiriing Web Developer, Designer and Programmer. I've always had a passion for technology and how it can be used to improve people's lives, which is what drew me to web development. One of the things I enjoy most about being an aspiring web developer is the constant learning and growth that comes with the school activities. Technology is constantly evolving, and I'm always looking for new ways to improve my skills and stay up-to-date with the latest trends and best practices.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links active-link" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links active-link" onclick="opentab('Education')">
+                Education
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML</span><br />2022 - Present</li>
+                <li><span>CSS</span><br />2022 - Present</li>
+                <li><span>JAVASCRIPT</span><br />2022 - Present</li>
+              </ul>
+            </div>
+            <div class="tab-contents active-tab" id="Experience">
+              <ul>
+                <li><span>Web Developer</span><br />2022 - Present</li>
+                <li><span>Web Designer</span><br />2022 - Present</li>
+                <li><span>Programmer</span><br />2022 - Present</li>
+              </ul>
+            </div>
+            <div class="tab-contents active-tab" id="Education">
+              <ul>
+                <li><span>Elementary</span> <br>Tambo Elementary School-Main<br />2011 - 2017</li>
+                <li><span>Junior Highschool</span><br>Tambo National Highschool - Extension<br />2017 - 2020</li>
+                <li><span>Senior Highschool</span><br>Olivarez College Paranaque<br />2020 - 2022</li>
+                <li><span>College</span><br>Arellano University - Jose Abad Santos<br />2022 - Present</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------SERVICES----------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="services-list">
+          <div>
+            <a href="labact1prelim.html"><i class="fa-solid fa-code"></i>
+              <h2>Lab Act No.1</h2>
+              <p>
+                USING BASIC HTML ELEMENTS
+              </p></a>
+            
+          </div>
+          <div>
+            <a href="labact2prelim.html"><i class="fa-solid fa-code-compare"></i>
+              <h2>Lab Act No.2</h2>
+              <p>
+                HEADINGS, HORIZONTAL RULE & BREAKTAG
+              </p></a>
+            
+          </div>
+          <div>
+            <a href="labact3prelim.html"><i class="fa-solid fa-shuffle"></i>
+              <h2>Lab Act No.3</h2>
+              <p>
+                USING HORIZONTAL RULE ELEMENT
+              </p></a>
+            
+          </div>
+          <div>
+            <a href="labact4midterm.html"><i class="fa-solid fa-code-pull-request"></i>
+              <h2>Lab Act No.4</h2>
+              <p>
+                HTML VLINKS
+              </p></a>
+            
+          </div>
+          <div>
+            <a href="labact5midterm.html"><i class="fa-solid fa-up-right-from-square"></i>
+              <h2>Lab Act No.5</h2>
+              <p>
+                HTML LINKS
+              </p></a>
+            
+          </div>
+          <div>
+            <a href="labact6midterm.html"><i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+              <h2>Lab Act No.6</h2>
+              <p>
+                HTML IMAGE FLOAT
+              </p></a>
+            
+          </div>
+          <div>
+            <a href="labact7midterm.html"><i class="fa-solid fa-up-down-left-right"></i>
+              <h2>Lab Act No.7</h2>
+              <p>
+                HTML IMAGE MAP
+              </p></a>
+            
+          </div>
+          <div>
+            <a href="labact8midterm.html"><i class="fa-solid fa-arrows-split-up-and-left"></i>
+              <h2>Lab Act No.8</h2>
+              <p>
+                Edited Autobiography using CSS (inline, internal & external CSS)
+              </p></a>
+            
+          </div>
+          <div>
+            <a href="labact9midterm.html"><i class="fa-solid fa-arrows-turn-to-dots"></i>
+              <h2>Lab Act No.9</h2>
+              <p>
+                ORDERED & AND UNORDERED LISTS
+              </p></a>
+            
+          </div>
+          <div>
+            <a href="Actspel.html"><i class="fa-solid fa-arrow-rotate-right"></i>
+              <h2>Lab Act</h2>
+              <p>
+                SOLO LEARN CERTIFICATE HTML
+              </p></a>
+            
+          </div>
+          <div>
+            <a href="Actspel.html"><i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <h2>Lab Act</h2>
+              <p>
+                Design Home Page/ Menu
+              </p></a>
+            
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+    <!----------portfolio---------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Gallery</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/image3.jpg" />
+            <div class="layer">
+              <h3><i class="fa-solid fa-dog"></i><span>LUNA CAKES</span></h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/immage1.jpg" />
+            <div class="layer">
+              <h3><i class="fa-solid fa-umbrella-beach"></i></i><span>MYSELF</span></h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/yol.jpg" />
+            <div class="layer">
+              <h3><i class="fa-solid fa-person"></i></i><span>Myself<span></h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/iamge 2.jpg" />
+            <div class="layer">
+              <h3><i class="fa-solid fa-dog"></i><span>ALBUS TIMBERLAKE</span></h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/halo.jpg" />
+            <div class="layer">
+              <h3><i class="fa-solid fa-utensils"></i></i><span>Halo Con Yelo</span></h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/iamge 11.jpg" />
+            <div class="layer">
+              <h3><i class="fa-solid fa-utensils"></i><span>Variety Food</span></h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/iamge333.jpg" />
+            <div class="layer">
+              <h3><i class="fa-solid fa-utensils"></i><span>Buko Dessert</span></h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/miryinda.jpg" />
+            <div class="layer">
+              <h3><i class="fa-solid fa-utensils"></i><span>Lunch Meal</span></h3>
+            </div>
+          </div>
+          
+          
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+<!-----------contact------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-regular fa-paper-plane"></i>contact@exampe.com</p>
+        <p><i class="fa-solid fa-phone"></i>0123456789</p>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ Alfred. Made with <i class="fas fa-heart"></i>HTML and CSS VsCode</p>
+  </div>
+</div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>

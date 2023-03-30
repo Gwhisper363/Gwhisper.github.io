@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ImageMap</title>
+    <style>
+      body {
+        background: linear-gradient(to top, #ffffff 0%, #0020c2 100%);
+        background-repeat: no-repeat;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+        padding: 5px;
+        border-style: double;
+        border-color: white;
+        margin-left: 600px;
+        margin-right: 600px;
+      }
+      h2 {
+        text-align: center;
+        color: white;
+        padding: 5px;
+        border-style: double;
+        border-color: white;
+        font-size: 20px;
+        margin-left: 360px;
+        margin-right: 360px;
+      }
+      p {
+        text-align: center;
+        color: white;
+        padding: 5px;
+        border-style: double;
+        border-color: white;
+        margin-left: 400px;
+        margin-right: 400px;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>IMAGE MAPS</h1>
+    <h2>
+      ALFRED MIGUEL M. DE LEON <br />ITC122 FOR TUES LEC 2:00-4:00PM AND FRI/SAT
+      LAB 4:00-5:30PM <br />TAG CREATED DATE: FEBRUARY 20, 2023
+    </h2>
+    <p>
+      Click on the computer, the phone, or the cup of coffee to go to a new page
+      and read more about the topic:
+    </p>
+
+    <img
+      src="images/ImageMapp.jpg"
+      alt="Workplace"
+      usemap="#workmap"
+      width="none"
+      height="none"
+    />
+
+    <map name="#workmap">
+      <area
+        target="_self"
+        alt="mac"
+        title="mac"
+        href="http://127.0.0.1:5500/mac.html"
+        coords="249,86,255,277,223,421,567,420,538,277,540,84"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Iphone"
+        title="Iphone"
+        href="http://127.0.0.1:5500/Phone.html"
+        coords="570,271,589,341,643,340,623,272"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="coffee"
+        title="coffee"
+        href="http://127.0.0.1:5500/Coffee.html"
+        coords="681,373,48"
+        shape="circle"
+      />
+    </map>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+body{
+	background-color: black;
+	padding-bottom: 80px;
+}
+p{	
+	font-size: 18px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	color: black;
+	background-color: white;
+	text-align: Center;
+	padding: 25px;
+	margin-left: 18px;
+	margin-right: 18px;
+	border-radius: 70px;
+}
+h2 {
+	color: blck;
+}
+.header{
+	background-color: White;
+	height: none;
+	margin: 20px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 20px;
+	font-size: 12px;
+}
+h3{
+	color: violet;
+	font-size: 100px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	padding-top: 600px;
+	Text-align: center;
+}
+img{
+	width: 500px;
+	height: 300px;
+	padding-top: 0px;
+	border-radius: 40px;
+}
